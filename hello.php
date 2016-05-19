@@ -1,3 +1,11 @@
 <?php
 
-echo "Hello World";
+class HelloWorld {
+
+	public function __construct() {
+		echo "Hello World";
+	}
+
+}
+
+new HelloWorld();
