@@ -1,0 +1,19 @@
+{
+	"name":"Apexure/Mailer",
+	"authors": [
+		{
+			"name":"Aqib Rashid",
+			"email":"aqib.rashid@apexure.com"
+		}
+	],
+    "require": {
+        "contextio/php-contextio": "^2.1",
+        "phpmailer/phpmailer": "^5.2",
+		"phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apexure\\Mailer\\": "src"
+        }
+    }
+}
