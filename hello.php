@@ -3,7 +3,7 @@
 class HelloWorld {
 
 	public function __construct() {
-		echo "Hello World! ";
+		echo "Hello World!";
 	}
 
 }
